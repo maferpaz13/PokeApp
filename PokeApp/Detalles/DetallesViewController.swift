@@ -15,6 +15,7 @@ class DetallesViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descripcionLabel: UILabel!
     @IBOutlet weak var habilidadesStack: UIStackView!
+    @IBOutlet weak var stackCompleto: UIStackView!
     
     //MARK: - IBActions
     @IBAction func back(_ sender: Any) {
@@ -59,6 +60,7 @@ class DetallesViewController: UIViewController {
                 
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     
+                    self.stackCompleto.isHidden = false
                     HideLoadingView(vista: self)
                 }
                 

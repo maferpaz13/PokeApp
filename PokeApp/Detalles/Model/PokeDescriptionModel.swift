@@ -23,7 +23,6 @@ class PokeDescriptionModel {
         let moves : [Moves]?
         let name : String?
         let order : Int?
-        let past_types : [String]?
         let species : Species?
         let sprites : Sprites?
         let stats : [Stats]?
@@ -44,7 +43,6 @@ class PokeDescriptionModel {
             case moves = "moves"
             case name = "name"
             case order = "order"
-            case past_types = "past_types"
             case species = "species"
             case sprites = "sprites"
             case stats = "stats"
@@ -66,7 +64,6 @@ class PokeDescriptionModel {
             moves = try values.decodeIfPresent([Moves].self, forKey: .moves)
             name = try values.decodeIfPresent(String.self, forKey: .name)
             order = try values.decodeIfPresent(Int.self, forKey: .order)
-            past_types = try values.decodeIfPresent([String].self, forKey: .past_types)
             species = try values.decodeIfPresent(Species.self, forKey: .species)
             sprites = try values.decodeIfPresent(Sprites.self, forKey: .sprites)
             stats = try values.decodeIfPresent([Stats].self, forKey: .stats)
