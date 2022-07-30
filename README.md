@@ -2,7 +2,7 @@
 App prueba PokeApp que nos permite seleccionar entre los diferentes Pokémons, ver
 su nombre, descripción y habilidades.
 
-## Cocoapods integrados en IkaSports:
+## Cocoapods integrados en PokeApp:
 
   * [Lottie](https://github.com/airbnb/lottie-ios): Cocoapod para la integracion de un 
   LoadingView para cuando se cargue información
