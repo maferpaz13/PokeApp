@@ -13,10 +13,10 @@
 		DD36D3FF2894932A00821EAC /* PokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D3FE2894932A00821EAC /* PokeModel.swift */; };
 		DD36D401289496D200821EAC /* PokeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D400289496D200821EAC /* PokeAPIClient.swift */; };
 		DD36D4032894975500821EAC /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D4022894975500821EAC /* EndPoints.swift */; };
-		DD36D4052894985000821EAC /* PokeImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D4042894985000821EAC /* PokeImageAPIClient.swift */; };
-		DD36D407289498AF00821EAC /* PokeImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D406289498AF00821EAC /* PokeImageModel.swift */; };
+		DD36D4052894985000821EAC /* PokeDescriptionAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D4042894985000821EAC /* PokeDescriptionAPIClient.swift */; };
+		DD36D407289498AF00821EAC /* PokeDescriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D406289498AF00821EAC /* PokeDescriptionModel.swift */; };
 		DD36D409289499E800821EAC /* PokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D408289499E800821EAC /* PokeViewModel.swift */; };
-		DD36D40B289499F500821EAC /* PokeImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D40A289499F500821EAC /* PokeImageViewModel.swift */; };
+		DD36D40B289499F500821EAC /* pokeInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D40A289499F500821EAC /* pokeInfoViewModel.swift */; };
 		DD36D41028949CFB00821EAC /* PokecollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD36D40F28949CFB00821EAC /* PokecollectionCell.xib */; };
 		DD36D41228949D8700821EAC /* PokeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D41128949D8700821EAC /* PokeCollectionViewCell.swift */; };
 		DD36D4142894AE9800821EAC /* PokeCollection2ViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD36D4132894AE9800821EAC /* PokeCollection2ViewCell.xib */; };
@@ -31,6 +31,10 @@
 		DD6B31B528948F8B001D4B84 /* PokeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B31B428948F8B001D4B84 /* PokeAppTests.swift */; };
 		DD6B31BF28948F8B001D4B84 /* PokeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B31BE28948F8B001D4B84 /* PokeAppUITests.swift */; };
 		DD6B31C128948F8B001D4B84 /* PokeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B31C028948F8B001D4B84 /* PokeAppUITestsLaunchTests.swift */; };
+		DD9CD5DD2895A201009D888B /* PokeEspeciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CD5DC2895A201009D888B /* PokeEspeciesModel.swift */; };
+		DD9CD5DF2895A44B009D888B /* PokeEspeciesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CD5DE2895A44B009D888B /* PokeEspeciesAPIClient.swift */; };
+		DD9CD5E42895AF97009D888B /* vistaHabilidadesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9CD5E32895AF97009D888B /* vistaHabilidadesCell.xib */; };
+		DD9CD5E62895B1AA009D888B /* stackVistaHabilidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CD5E52895B1AA009D888B /* stackVistaHabilidades.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +67,10 @@
 		DD36D3FE2894932A00821EAC /* PokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeModel.swift; sourceTree = "<group>"; };
 		DD36D400289496D200821EAC /* PokeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPIClient.swift; sourceTree = "<group>"; };
 		DD36D4022894975500821EAC /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
-		DD36D4042894985000821EAC /* PokeImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeImageAPIClient.swift; sourceTree = "<group>"; };
-		DD36D406289498AF00821EAC /* PokeImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeImageModel.swift; sourceTree = "<group>"; };
+		DD36D4042894985000821EAC /* PokeDescriptionAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeDescriptionAPIClient.swift; sourceTree = "<group>"; };
+		DD36D406289498AF00821EAC /* PokeDescriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeDescriptionModel.swift; sourceTree = "<group>"; };
 		DD36D408289499E800821EAC /* PokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeViewModel.swift; sourceTree = "<group>"; };
-		DD36D40A289499F500821EAC /* PokeImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeImageViewModel.swift; sourceTree = "<group>"; };
+		DD36D40A289499F500821EAC /* pokeInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeInfoViewModel.swift; sourceTree = "<group>"; };
 		DD36D40F28949CFB00821EAC /* PokecollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokecollectionCell.xib; sourceTree = "<group>"; };
 		DD36D41128949D8700821EAC /* PokeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCollectionViewCell.swift; sourceTree = "<group>"; };
 		DD36D4132894AE9800821EAC /* PokeCollection2ViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokeCollection2ViewCell.xib; sourceTree = "<group>"; };
@@ -85,6 +89,10 @@
 		DD6B31BA28948F8B001D4B84 /* PokeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6B31BE28948F8B001D4B84 /* PokeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAppUITests.swift; sourceTree = "<group>"; };
 		DD6B31C028948F8B001D4B84 /* PokeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD9CD5DC2895A201009D888B /* PokeEspeciesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeEspeciesModel.swift; sourceTree = "<group>"; };
+		DD9CD5DE2895A44B009D888B /* PokeEspeciesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeEspeciesAPIClient.swift; sourceTree = "<group>"; };
+		DD9CD5E32895AF97009D888B /* vistaHabilidadesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vistaHabilidadesCell.xib; sourceTree = "<group>"; };
+		DD9CD5E52895B1AA009D888B /* stackVistaHabilidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackVistaHabilidades.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				DD36D400289496D200821EAC /* PokeAPIClient.swift */,
-				DD36D4042894985000821EAC /* PokeImageAPIClient.swift */,
+				DD36D4042894985000821EAC /* PokeDescriptionAPIClient.swift */,
+				DD9CD5DE2895A44B009D888B /* PokeEspeciesAPIClient.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -151,7 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				DD36D3FE2894932A00821EAC /* PokeModel.swift */,
-				DD36D406289498AF00821EAC /* PokeImageModel.swift */,
+				DD36D406289498AF00821EAC /* PokeDescriptionModel.swift */,
+				DD9CD5DC2895A201009D888B /* PokeEspeciesModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				DD36D408289499E800821EAC /* PokeViewModel.swift */,
-				DD36D40A289499F500821EAC /* PokeImageViewModel.swift */,
+				DD36D40A289499F500821EAC /* pokeInfoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -201,6 +211,7 @@
 		DD6B319C28948F89001D4B84 /* PokeApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD9CD5E22895AF81009D888B /* vistaHabilidades */,
 				DD36D3FD2894930100821EAC /* ViewModel */,
 				DD36D3FB289492F300821EAC /* Network */,
 				DD36D3FC289492FB00821EAC /* Model */,
@@ -233,6 +244,15 @@
 				DD6B31C028948F8B001D4B84 /* PokeAppUITestsLaunchTests.swift */,
 			);
 			path = PokeAppUITests;
+			sourceTree = "<group>";
+		};
+		DD9CD5E22895AF81009D888B /* vistaHabilidades */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CD5E32895AF97009D888B /* vistaHabilidadesCell.xib */,
+				DD9CD5E52895B1AA009D888B /* stackVistaHabilidades.swift */,
+			);
+			path = vistaHabilidades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +366,7 @@
 			files = (
 				DD6B31AA28948F8B001D4B84 /* LaunchScreen.storyboard in Resources */,
 				DD6B31A728948F8B001D4B84 /* Assets.xcassets in Resources */,
+				DD9CD5E42895AF97009D888B /* vistaHabilidadesCell.xib in Resources */,
 				DD36D4142894AE9800821EAC /* PokeCollection2ViewCell.xib in Resources */,
 				DD6B31A528948F89001D4B84 /* Main.storyboard in Resources */,
 				DD36D41028949CFB00821EAC /* PokecollectionCell.xib in Resources */,
@@ -478,17 +499,20 @@
 			files = (
 				DD6B31A228948F89001D4B84 /* HomeViewController.swift in Sources */,
 				DD36D4182894C5A200821EAC /* DetallesViewController.swift in Sources */,
-				DD36D40B289499F500821EAC /* PokeImageViewModel.swift in Sources */,
+				DD9CD5DF2895A44B009D888B /* PokeEspeciesAPIClient.swift in Sources */,
+				DD36D40B289499F500821EAC /* pokeInfoViewModel.swift in Sources */,
 				DD6B319E28948F89001D4B84 /* AppDelegate.swift in Sources */,
-				DD36D407289498AF00821EAC /* PokeImageModel.swift in Sources */,
+				DD36D407289498AF00821EAC /* PokeDescriptionModel.swift in Sources */,
 				DD36D409289499E800821EAC /* PokeViewModel.swift in Sources */,
 				DD36D3FF2894932A00821EAC /* PokeModel.swift in Sources */,
 				DD36D401289496D200821EAC /* PokeAPIClient.swift in Sources */,
-				DD36D4052894985000821EAC /* PokeImageAPIClient.swift in Sources */,
+				DD36D4052894985000821EAC /* PokeDescriptionAPIClient.swift in Sources */,
 				DD36D4032894975500821EAC /* EndPoints.swift in Sources */,
 				DD36D41228949D8700821EAC /* PokeCollectionViewCell.swift in Sources */,
 				DD36D4162894AFB500821EAC /* PokeCollection2CollectionViewCell.swift in Sources */,
+				DD9CD5E62895B1AA009D888B /* stackVistaHabilidades.swift in Sources */,
 				DD6B31A028948F89001D4B84 /* SceneDelegate.swift in Sources */,
+				DD9CD5DD2895A201009D888B /* PokeEspeciesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

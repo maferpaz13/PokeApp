@@ -29,9 +29,10 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     //MARK: - Properties
-    var ElementsArrayPokemon: [(imagen: String, titulo: String)] = []
+    var ElementsArrayPokemon: [(imagen: String, titulo: String, id: String, url: String)] = []
     var ViewModel = PokeViewModel()
     var list : Bool = false
+    var url: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +40,14 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         Collection.register(UINib(nibName: "PokecollectionCell", bundle: .main), forCellWithReuseIdentifier: "Pokecollection")
         Collection.register(UINib(nibName: "PokeCollection2ViewCell", bundle: .main), forCellWithReuseIdentifier: "pokecollection2")
         ObtenerInfo()
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetails" {
+            let destinationVC = segue.destination as! DetallesViewController
+            destinationVC.url = url
+            }
         
     }
     
@@ -51,7 +60,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
                 Result?.results?.forEach({ Pokemon in
                     let last4 =  Pokemon.url?.suffix(7)
                     let number = "\(last4!)".westernArabicNumeralsOnly
-                    self.ElementsArrayPokemon.append((imagen: URLGet.ImagenDefault.replacingOccurrences(of: "{PokeID}", with: number), titulo: Pokemon.name!))
+                    self.ElementsArrayPokemon.append((imagen: URLGet.ImagenDefault.replacingOccurrences(of: "{PokeID}", with: number), titulo: Pokemon.name!, id: number, url: Pokemon.url!))
                     
                 })
                 
@@ -63,6 +72,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+        url = ElementsArrayPokemon[indexPath.row].url
         self.performSegue(withIdentifier: "showDetails", sender: nil)
         
     }

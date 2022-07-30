@@ -13,6 +13,7 @@ struct EndPoints {
 
 struct URLGet {
     static let pokemon = "/pokemon/"
-    static let pokemonImage = "/pokemon-form/{PokeID}/"
+    static let pokemonDescrip = "/pokemon/{PokeID}/"
     static let ImagenDefault = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{PokeID}.png"
+    static let pokeEspecies = "/pokemon-species/{PokeID}/"
 }

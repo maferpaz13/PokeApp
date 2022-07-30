@@ -8,12 +8,12 @@
 import Foundation
 import Alamofire
 
-class PokeImageAPIClient {
+class PokeDescriptionAPIClient {
     
-    func getPokeImage(id: Int, completion: @escaping (AFDataResponse<Data>) -> ()) {
+    func getPokeDescrip(url: String, completion: @escaping (AFDataResponse<Data>) -> ()) {
         
         
-        AF.request(EndPoints.domain+URLGet.pokemon.replacingOccurrences(of: "{PokeID}", with: "\(id)"), method: .get, encoding: JSONEncoding.default).responseData {
+        AF.request(url, method: .get, encoding: JSONEncoding.default).responseData {
             
             (Result) in
             
