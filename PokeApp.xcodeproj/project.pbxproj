@@ -17,9 +17,14 @@
 		DD36D407289498AF00821EAC /* PokeImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D406289498AF00821EAC /* PokeImageModel.swift */; };
 		DD36D409289499E800821EAC /* PokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D408289499E800821EAC /* PokeViewModel.swift */; };
 		DD36D40B289499F500821EAC /* PokeImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D40A289499F500821EAC /* PokeImageViewModel.swift */; };
+		DD36D41028949CFB00821EAC /* PokecollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD36D40F28949CFB00821EAC /* PokecollectionCell.xib */; };
+		DD36D41228949D8700821EAC /* PokeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D41128949D8700821EAC /* PokeCollectionViewCell.swift */; };
+		DD36D4142894AE9800821EAC /* PokeCollection2ViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD36D4132894AE9800821EAC /* PokeCollection2ViewCell.xib */; };
+		DD36D4162894AFB500821EAC /* PokeCollection2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D4152894AFB500821EAC /* PokeCollection2CollectionViewCell.swift */; };
+		DD36D4182894C5A200821EAC /* DetallesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D4172894C5A200821EAC /* DetallesViewController.swift */; };
 		DD6B319E28948F89001D4B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B319D28948F89001D4B84 /* AppDelegate.swift */; };
 		DD6B31A028948F89001D4B84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B319F28948F89001D4B84 /* SceneDelegate.swift */; };
-		DD6B31A228948F89001D4B84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B31A128948F89001D4B84 /* ViewController.swift */; };
+		DD6B31A228948F89001D4B84 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B31A128948F89001D4B84 /* HomeViewController.swift */; };
 		DD6B31A528948F89001D4B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6B31A328948F89001D4B84 /* Main.storyboard */; };
 		DD6B31A728948F8B001D4B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6B31A628948F8B001D4B84 /* Assets.xcassets */; };
 		DD6B31AA28948F8B001D4B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6B31A828948F8B001D4B84 /* LaunchScreen.storyboard */; };
@@ -62,10 +67,15 @@
 		DD36D406289498AF00821EAC /* PokeImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeImageModel.swift; sourceTree = "<group>"; };
 		DD36D408289499E800821EAC /* PokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeViewModel.swift; sourceTree = "<group>"; };
 		DD36D40A289499F500821EAC /* PokeImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeImageViewModel.swift; sourceTree = "<group>"; };
+		DD36D40F28949CFB00821EAC /* PokecollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokecollectionCell.xib; sourceTree = "<group>"; };
+		DD36D41128949D8700821EAC /* PokeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCollectionViewCell.swift; sourceTree = "<group>"; };
+		DD36D4132894AE9800821EAC /* PokeCollection2ViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokeCollection2ViewCell.xib; sourceTree = "<group>"; };
+		DD36D4152894AFB500821EAC /* PokeCollection2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCollection2CollectionViewCell.swift; sourceTree = "<group>"; };
+		DD36D4172894C5A200821EAC /* DetallesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesViewController.swift; sourceTree = "<group>"; };
 		DD6B319A28948F89001D4B84 /* PokeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6B319D28948F89001D4B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD6B319F28948F89001D4B84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD6B31A128948F89001D4B84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD6B31A128948F89001D4B84 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DD6B31A428948F89001D4B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD6B31A628948F8B001D4B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6B31A928948F8B001D4B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -155,6 +165,17 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		DD36D40C28949CC300821EAC /* collection cell */ = {
+			isa = PBXGroup;
+			children = (
+				DD36D40F28949CFB00821EAC /* PokecollectionCell.xib */,
+				DD36D41128949D8700821EAC /* PokeCollectionViewCell.swift */,
+				DD36D4132894AE9800821EAC /* PokeCollection2ViewCell.xib */,
+				DD36D4152894AFB500821EAC /* PokeCollection2CollectionViewCell.swift */,
+			);
+			path = "collection cell";
+			sourceTree = "<group>";
+		};
 		DD6B319128948F89001D4B84 = {
 			isa = PBXGroup;
 			children = (
@@ -183,9 +204,11 @@
 				DD36D3FD2894930100821EAC /* ViewModel */,
 				DD36D3FB289492F300821EAC /* Network */,
 				DD36D3FC289492FB00821EAC /* Model */,
+				DD36D40C28949CC300821EAC /* collection cell */,
 				DD6B319D28948F89001D4B84 /* AppDelegate.swift */,
 				DD6B319F28948F89001D4B84 /* SceneDelegate.swift */,
-				DD6B31A128948F89001D4B84 /* ViewController.swift */,
+				DD36D4172894C5A200821EAC /* DetallesViewController.swift */,
+				DD6B31A128948F89001D4B84 /* HomeViewController.swift */,
 				DD6B31A328948F89001D4B84 /* Main.storyboard */,
 				DD6B31A628948F8B001D4B84 /* Assets.xcassets */,
 				DD6B31A828948F8B001D4B84 /* LaunchScreen.storyboard */,
@@ -323,7 +346,9 @@
 			files = (
 				DD6B31AA28948F8B001D4B84 /* LaunchScreen.storyboard in Resources */,
 				DD6B31A728948F8B001D4B84 /* Assets.xcassets in Resources */,
+				DD36D4142894AE9800821EAC /* PokeCollection2ViewCell.xib in Resources */,
 				DD6B31A528948F89001D4B84 /* Main.storyboard in Resources */,
+				DD36D41028949CFB00821EAC /* PokecollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +476,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6B31A228948F89001D4B84 /* ViewController.swift in Sources */,
+				DD6B31A228948F89001D4B84 /* HomeViewController.swift in Sources */,
+				DD36D4182894C5A200821EAC /* DetallesViewController.swift in Sources */,
 				DD36D40B289499F500821EAC /* PokeImageViewModel.swift in Sources */,
 				DD6B319E28948F89001D4B84 /* AppDelegate.swift in Sources */,
 				DD36D407289498AF00821EAC /* PokeImageModel.swift in Sources */,
@@ -460,6 +486,8 @@
 				DD36D401289496D200821EAC /* PokeAPIClient.swift in Sources */,
 				DD36D4052894985000821EAC /* PokeImageAPIClient.swift in Sources */,
 				DD36D4032894975500821EAC /* EndPoints.swift in Sources */,
+				DD36D41228949D8700821EAC /* PokeCollectionViewCell.swift in Sources */,
+				DD36D4162894AFB500821EAC /* PokeCollection2CollectionViewCell.swift in Sources */,
 				DD6B31A028948F89001D4B84 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
