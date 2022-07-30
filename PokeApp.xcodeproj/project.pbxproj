@@ -35,6 +35,10 @@
 		DD9CD5DF2895A44B009D888B /* PokeEspeciesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CD5DE2895A44B009D888B /* PokeEspeciesAPIClient.swift */; };
 		DD9CD5E42895AF97009D888B /* vistaHabilidadesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9CD5E32895AF97009D888B /* vistaHabilidadesCell.xib */; };
 		DD9CD5E62895B1AA009D888B /* stackVistaHabilidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CD5E52895B1AA009D888B /* stackVistaHabilidades.swift */; };
+		DD9CD5E82895B99A009D888B /* Animaciones in Resources */ = {isa = PBXBuildFile; fileRef = DD9CD5E72895B99A009D888B /* Animaciones */; };
+		DD9CD5EC2895B9F5009D888B /* popUpViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CD5EB2895B9F5009D888B /* popUpViews.swift */; };
+		DD9CD5ED2895B9F5009D888B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CD5EA2895B9F4009D888B /* LoadingView.swift */; };
+		DD9CD5EE2895BAEA009D888B /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9CD5E92895B9F4009D888B /* LoadingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +97,10 @@
 		DD9CD5DE2895A44B009D888B /* PokeEspeciesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeEspeciesAPIClient.swift; sourceTree = "<group>"; };
 		DD9CD5E32895AF97009D888B /* vistaHabilidadesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vistaHabilidadesCell.xib; sourceTree = "<group>"; };
 		DD9CD5E52895B1AA009D888B /* stackVistaHabilidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackVistaHabilidades.swift; sourceTree = "<group>"; };
+		DD9CD5E72895B99A009D888B /* Animaciones */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Animaciones; sourceTree = "<group>"; };
+		DD9CD5E92895B9F4009D888B /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		DD9CD5EA2895B9F4009D888B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DD9CD5EB2895B9F5009D888B /* popUpViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +157,6 @@
 		DD36D3FB289492F300821EAC /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				DD36D400289496D200821EAC /* PokeAPIClient.swift */,
 				DD36D4042894985000821EAC /* PokeDescriptionAPIClient.swift */,
 				DD9CD5DE2895A44B009D888B /* PokeEspeciesAPIClient.swift */,
 			);
@@ -159,7 +166,6 @@
 		DD36D3FC289492FB00821EAC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DD36D3FE2894932A00821EAC /* PokeModel.swift */,
 				DD36D406289498AF00821EAC /* PokeDescriptionModel.swift */,
 				DD9CD5DC2895A201009D888B /* PokeEspeciesModel.swift */,
 			);
@@ -169,13 +175,12 @@
 		DD36D3FD2894930100821EAC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				DD36D408289499E800821EAC /* PokeViewModel.swift */,
 				DD36D40A289499F500821EAC /* pokeInfoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		DD36D40C28949CC300821EAC /* collection cell */ = {
+		DD36D40C28949CC300821EAC /* collection cells */ = {
 			isa = PBXGroup;
 			children = (
 				DD36D40F28949CFB00821EAC /* PokecollectionCell.xib */,
@@ -183,7 +188,7 @@
 				DD36D4132894AE9800821EAC /* PokeCollection2ViewCell.xib */,
 				DD36D4152894AFB500821EAC /* PokeCollection2CollectionViewCell.swift */,
 			);
-			path = "collection cell";
+			path = "collection cells";
 			sourceTree = "<group>";
 		};
 		DD6B319128948F89001D4B84 = {
@@ -211,20 +216,16 @@
 		DD6B319C28948F89001D4B84 /* PokeApp */ = {
 			isa = PBXGroup;
 			children = (
-				DD9CD5E22895AF81009D888B /* vistaHabilidades */,
-				DD36D3FD2894930100821EAC /* ViewModel */,
-				DD36D3FB289492F300821EAC /* Network */,
-				DD36D3FC289492FB00821EAC /* Model */,
-				DD36D40C28949CC300821EAC /* collection cell */,
+				DD9CD5EF2895D1A7009D888B /* Home */,
+				DD9CD5F02895D1B0009D888B /* Detalles */,
 				DD6B319D28948F89001D4B84 /* AppDelegate.swift */,
 				DD6B319F28948F89001D4B84 /* SceneDelegate.swift */,
-				DD36D4172894C5A200821EAC /* DetallesViewController.swift */,
-				DD6B31A128948F89001D4B84 /* HomeViewController.swift */,
 				DD6B31A328948F89001D4B84 /* Main.storyboard */,
 				DD6B31A628948F8B001D4B84 /* Assets.xcassets */,
 				DD6B31A828948F8B001D4B84 /* LaunchScreen.storyboard */,
 				DD6B31AB28948F8B001D4B84 /* Info.plist */,
-				DD36D4022894975500821EAC /* EndPoints.swift */,
+				DD9CD5F12895D1F8009D888B /* Commons */,
+				DD9CD5E72895B99A009D888B /* Animaciones */,
 			);
 			path = PokeApp;
 			sourceTree = "<group>";
@@ -253,6 +254,65 @@
 				DD9CD5E52895B1AA009D888B /* stackVistaHabilidades.swift */,
 			);
 			path = vistaHabilidades;
+			sourceTree = "<group>";
+		};
+		DD9CD5EF2895D1A7009D888B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CD5F42895D228009D888B /* ViewModel */,
+				DD9CD5F32895D223009D888B /* Network */,
+				DD9CD5F22895D21E009D888B /* Model */,
+				DD36D40C28949CC300821EAC /* collection cells */,
+				DD6B31A128948F89001D4B84 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DD9CD5F02895D1B0009D888B /* Detalles */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CD5E22895AF81009D888B /* vistaHabilidades */,
+				DD36D3FD2894930100821EAC /* ViewModel */,
+				DD36D3FB289492F300821EAC /* Network */,
+				DD36D3FC289492FB00821EAC /* Model */,
+				DD36D4172894C5A200821EAC /* DetallesViewController.swift */,
+			);
+			path = Detalles;
+			sourceTree = "<group>";
+		};
+		DD9CD5F12895D1F8009D888B /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				DD36D4022894975500821EAC /* EndPoints.swift */,
+				DD9CD5E92895B9F4009D888B /* LoadingView.xib */,
+				DD9CD5EA2895B9F4009D888B /* LoadingView.swift */,
+				DD9CD5EB2895B9F5009D888B /* popUpViews.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		DD9CD5F22895D21E009D888B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD36D3FE2894932A00821EAC /* PokeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD9CD5F32895D223009D888B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DD36D400289496D200821EAC /* PokeAPIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DD9CD5F42895D228009D888B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD36D408289499E800821EAC /* PokeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,9 +425,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD6B31AA28948F8B001D4B84 /* LaunchScreen.storyboard in Resources */,
+				DD9CD5EE2895BAEA009D888B /* LoadingView.xib in Resources */,
 				DD6B31A728948F8B001D4B84 /* Assets.xcassets in Resources */,
 				DD9CD5E42895AF97009D888B /* vistaHabilidadesCell.xib in Resources */,
 				DD36D4142894AE9800821EAC /* PokeCollection2ViewCell.xib in Resources */,
+				DD9CD5E82895B99A009D888B /* Animaciones in Resources */,
 				DD6B31A528948F89001D4B84 /* Main.storyboard in Resources */,
 				DD36D41028949CFB00821EAC /* PokecollectionCell.xib in Resources */,
 			);
@@ -504,6 +566,7 @@
 				DD6B319E28948F89001D4B84 /* AppDelegate.swift in Sources */,
 				DD36D407289498AF00821EAC /* PokeDescriptionModel.swift in Sources */,
 				DD36D409289499E800821EAC /* PokeViewModel.swift in Sources */,
+				DD9CD5EC2895B9F5009D888B /* popUpViews.swift in Sources */,
 				DD36D3FF2894932A00821EAC /* PokeModel.swift in Sources */,
 				DD36D401289496D200821EAC /* PokeAPIClient.swift in Sources */,
 				DD36D4052894985000821EAC /* PokeDescriptionAPIClient.swift in Sources */,
@@ -513,6 +576,7 @@
 				DD9CD5E62895B1AA009D888B /* stackVistaHabilidades.swift in Sources */,
 				DD6B31A028948F89001D4B84 /* SceneDelegate.swift in Sources */,
 				DD9CD5DD2895A201009D888B /* PokeEspeciesModel.swift in Sources */,
+				DD9CD5ED2895B9F5009D888B /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

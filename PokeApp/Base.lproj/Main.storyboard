@@ -213,16 +213,16 @@
                                                         <rect key="frame" x="0.0" y="150" width="414" height="150"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2ef-qY-QBr">
-                                                                <rect key="frame" x="8" y="8" width="398" height="142"/>
+                                                                <rect key="frame" x="12" y="8" width="390" height="142"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Pokémon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mC4-jf-cFb">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="71"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="390" height="71"/>
                                                                         <fontDescription key="fontDescription" name="NotoNastaliqUrdu-Bold" family="Noto Nastaliq Urdu" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edh-Fw-vkd">
-                                                                        <rect key="frame" x="0.0" y="71" width="398" height="71"/>
+                                                                        <rect key="frame" x="0.0" y="71" width="390" height="71"/>
                                                                         <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="15"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -237,9 +237,9 @@
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="2ef-qY-QBr" secondAttribute="trailing" constant="8" id="5du-ed-kHV"/>
+                                                            <constraint firstAttribute="trailing" secondItem="2ef-qY-QBr" secondAttribute="trailing" constant="12" id="5du-ed-kHV"/>
                                                             <constraint firstAttribute="bottom" secondItem="2ef-qY-QBr" secondAttribute="bottom" id="Fd7-sY-k9V"/>
-                                                            <constraint firstItem="2ef-qY-QBr" firstAttribute="leading" secondItem="l9l-4i-jZu" secondAttribute="leading" constant="8" id="WMr-8Q-h7H"/>
+                                                            <constraint firstItem="2ef-qY-QBr" firstAttribute="leading" secondItem="l9l-4i-jZu" secondAttribute="leading" constant="12" id="WMr-8Q-h7H"/>
                                                             <constraint firstItem="2ef-qY-QBr" firstAttribute="top" secondItem="l9l-4i-jZu" secondAttribute="top" constant="8" id="yHq-bE-0gY"/>
                                                         </constraints>
                                                     </view>
@@ -247,16 +247,16 @@
                                                         <rect key="frame" x="0.0" y="300" width="414" height="150"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9as-yS-S6W">
-                                                                <rect key="frame" x="8" y="0.0" width="398" height="150"/>
+                                                                <rect key="frame" x="12" y="0.0" width="390" height="150"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción del Pokémon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGl-1h-KcQ">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="112.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="390" height="112.5"/>
                                                                         <fontDescription key="fontDescription" name="NotoNastaliqUrdu-Bold" family="Noto Nastaliq Urdu" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9t6-h7-4HX">
-                                                                        <rect key="frame" x="0.0" y="112.5" width="398" height="37.5"/>
+                                                                        <rect key="frame" x="0.0" y="112.5" width="390" height="37.5"/>
                                                                         <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="15"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -275,19 +275,19 @@
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="9as-yS-S6W" firstAttribute="top" secondItem="fAz-kG-KXu" secondAttribute="top" id="FuA-bP-Q4r"/>
-                                                            <constraint firstAttribute="trailing" secondItem="9as-yS-S6W" secondAttribute="trailing" constant="8" id="Lz2-cD-j5p"/>
+                                                            <constraint firstAttribute="trailing" secondItem="9as-yS-S6W" secondAttribute="trailing" constant="12" id="Lz2-cD-j5p"/>
                                                             <constraint firstAttribute="bottom" secondItem="9as-yS-S6W" secondAttribute="bottom" id="M6E-br-7zh"/>
-                                                            <constraint firstItem="9as-yS-S6W" firstAttribute="leading" secondItem="fAz-kG-KXu" secondAttribute="leading" constant="8" id="TGv-kK-Hwf"/>
+                                                            <constraint firstItem="9as-yS-S6W" firstAttribute="leading" secondItem="fAz-kG-KXu" secondAttribute="leading" constant="12" id="TGv-kK-Hwf"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bIW-He-R0J">
                                                         <rect key="frame" x="0.0" y="450" width="414" height="180"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="v5v-7J-lRD">
-                                                                <rect key="frame" x="8" y="0.0" width="398" height="180"/>
+                                                                <rect key="frame" x="12" y="0.0" width="390" height="180"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Habilidades" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzR-Fu-he4">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="180"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="390" height="180"/>
                                                                         <fontDescription key="fontDescription" name="NotoNastaliqUrdu-Bold" family="Noto Nastaliq Urdu" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -304,8 +304,8 @@
                                                         <constraints>
                                                             <constraint firstItem="v5v-7J-lRD" firstAttribute="top" secondItem="bIW-He-R0J" secondAttribute="top" id="Pmw-sj-1iT"/>
                                                             <constraint firstAttribute="bottom" secondItem="v5v-7J-lRD" secondAttribute="bottom" id="Ube-h2-Kfl"/>
-                                                            <constraint firstAttribute="trailing" secondItem="v5v-7J-lRD" secondAttribute="trailing" constant="8" id="Zmj-XP-hBL"/>
-                                                            <constraint firstItem="v5v-7J-lRD" firstAttribute="leading" secondItem="bIW-He-R0J" secondAttribute="leading" constant="8" id="vPE-Nf-0dR"/>
+                                                            <constraint firstAttribute="trailing" secondItem="v5v-7J-lRD" secondAttribute="trailing" constant="12" id="Zmj-XP-hBL"/>
+                                                            <constraint firstItem="v5v-7J-lRD" firstAttribute="leading" secondItem="bIW-He-R0J" secondAttribute="leading" constant="12" id="vPE-Nf-0dR"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>

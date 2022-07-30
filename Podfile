@@ -7,6 +7,7 @@ target 'PokeApp' do
 
 	pod 'Alamofire'
   pod 'SDWebImage', '~> 5.0'
+  pod 'lottie-ios'
 
   # Pods for PokeApp
 
